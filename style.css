@@ -1,0 +1,49 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#current-image-container {
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+}
+
+#current-image-container img { 
+    width: 100%;
+}
+
+#search-input {
+    width: 200px;
+    background: #d8d3d3;
+    color: black;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+#btn-submit {
+    padding: 7px;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    width: 100px;
+}
+#btn-submit:hover {
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+}
+
+
+#Displaysearch-history li {
+    cursor: pointer;
+    padding: 5px;
+    color: blue;
+    text-decoration: underline;
+    list-style: none;
+}
+
+#Displaysearch-history li:hover {
+    background-color: #f0f0f0;
+}
